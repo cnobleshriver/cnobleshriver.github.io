@@ -1,5 +1,5 @@
 import styles from "../style";
-import { robothand, profilepic } from "../assets";
+import { robotwithball } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Christian <br className="sm:block hidden" />{" "}
+            Christian<br className="sm:block hidden" />{" "}
             <span className="text-gradient">Noble Shriver</span>{" "}
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
@@ -33,8 +33,8 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-      <img src={profilepic} alt="profile" className="w-[40%] h-[60%] top-0 absolute z-[6]" />
-        <img src={robothand} alt="robot" className="w-[100%] h-[100%] top-12 relative z-[5]" />
+      {/* <img src={profilepic} alt="profile" className="w-[40%] h-[60%] top-0 absolute z-[6]" /> */}
+        <img src={robotwithball} alt="robot" className="w-[100%] h-[100%] top-12 relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
