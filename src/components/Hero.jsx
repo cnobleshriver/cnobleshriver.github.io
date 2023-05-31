@@ -1,6 +1,5 @@
 import styles from "../style";
 import { robotwithball } from "../assets";
-import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
