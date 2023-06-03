@@ -26,6 +26,7 @@ import people03 from "./people03.png";
 import profilepic from "./profilepic.jpg";
 import robothand from "./robothand.png";
 import robotwithball from "./robotwithball.png";
+import github from "./github.svg";
 
 export {
   airbnb,
@@ -55,5 +56,6 @@ export {
   people03,
   profilepic,
   robothand,
-  robotwithball
+  robotwithball,
+  github
 };
