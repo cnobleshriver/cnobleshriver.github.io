@@ -10,9 +10,16 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h1 className="font-poppins text-white w-[124px] h-[32px]"><TypewriterComponent
+      <h1 className="font-poppins text-white w-[200px] h-[32px]"><TypewriterComponent
+        options={{
+          loop: true,
+          deleteSpeed: 100,
+        }}
         onInit={(typewriter) =>
           typewriter.typeString('cnobleshriver.com').start()
+            .pauseFor(10000).deleteAll()
+            .typeString('Chris Noble Shriver')
+            .pauseFor(10000).deleteAll()
         }
       />
       </h1>
