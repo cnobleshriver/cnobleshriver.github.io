@@ -10,7 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h1 className="font-poppins text-white w-[200px] h-[32px]"><TypewriterComponent
+      <h1 className="font-poppins text-white w-[200px] h-[32px]">
+        Christian's Portfolio
+        {/* <TypewriterComponent
         options={{
           loop: true,
           deleteSpeed: 100,
@@ -21,7 +23,8 @@ const Navbar = () => {
             .typeString('Chris Noble Shriver')
             .pauseFor(10000).deleteAll()
         }
-      />
+      /> */}
+
       </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

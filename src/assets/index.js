@@ -21,9 +21,13 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import profilepic from "./profilepic.png";
-import robothand from "./robothand.png";
-import robotwithball from "./robotwithball.png";
+import robothand from "./robothand2.png";
 import github from "./github.svg";
+import sortingvisualizer from "./sortingvisualizer.png"
+import resumeicon from "./resumeicon.svg"
+import resume from "./resume.pdf"
+import anthiaslogo from "./anthias.svg"
+import anthiasimg from "./anthias.png"
 
 export {
   airbnb,
@@ -50,6 +54,10 @@ export {
   twitter,
   profilepic,
   robothand,
-  robotwithball,
-  github
+  github,
+  sortingvisualizer,
+  resumeicon,
+  resume,
+  anthiaslogo,
+  anthiasimg
 };

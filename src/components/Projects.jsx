@@ -1,21 +1,23 @@
 import React from 'react'
 import styles from "../style";
+import { sortingvisualizer, anthiaslogo, anthiasimg} from '../assets';
 
 const Projects = () => {
   // Placeholder projects
   const projects = [
     {
-      name: "Project 1",
-      description: "This is a description for Project 1.",
-      thumbnail: "#", // Replace with URL of thumbnail
-      link: "#" // Replace with URL of the project
+      name: "Anthias",
+      description: "Monitor risk on DeFi borrowing and lending markets.",
+      thumbnail: anthiaslogo, // Replace with URL of thumbnail
+      link: "https://anthias.xyz" // Replace with URL of the project
     },
+
     {
-      name: "Project 2",
-      description: "This is a description for Project 2.",
-      thumbnail: "#", // Replace with URL of thumbnail
-      link: "#" // Replace with URL of the project
-    },
+      name: "Sorting Visualizer",
+      description: "A React project that implements sorting algorithms.",
+      thumbnail: sortingvisualizer, // Replace with URL of thumbnail
+      link: "https://github.com/cnobleshriver/sorting-visualizer" // Replace with URL of the project
+    }
     // Add more projects as needed
   ];
 
