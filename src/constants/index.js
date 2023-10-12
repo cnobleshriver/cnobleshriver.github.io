@@ -1,4 +1,4 @@
-import { linkedin, github } from "../assets";
+import { linkedin, github, resume } from "../assets";
 
 export const navLinks = [
   {
@@ -8,6 +8,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "resume",
+    title: "Resume",
   }
 ];
 
