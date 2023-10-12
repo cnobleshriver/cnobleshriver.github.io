@@ -8,7 +8,7 @@ const Projects = () => {
     {
       name: "Anthias",
       description: "Monitor risk on DeFi borrowing and lending markets.",
-      thumbnail: anthiaslogo, // Replace with URL of thumbnail
+      thumbnail: anthiasimg, // Replace with URL of thumbnail
       link: "https://anthias.xyz" // Replace with URL of the project
     },
 
@@ -24,7 +24,7 @@ const Projects = () => {
   return (
     <section id="projects" className={`flex flex-wrap justify-center ${styles.paddingY}`}>
       <h2 className="font-poppins font-semibold ss:text-[52px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] text-center w-full">
-        My Projects
+        Projects
       </h2>
       {projects.map((project, index) => (
         <a href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
