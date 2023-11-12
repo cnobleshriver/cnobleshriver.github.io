@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../style";
-import { sortingvisualizer, anthiaslogo, anthiasimg} from '../assets';
+import { sortingvisualizer, anthiaslogo, anthiasimg, courseReviews } from '../assets';
 
 const Projects = () => {
   // Placeholder projects
@@ -8,17 +8,25 @@ const Projects = () => {
     {
       name: "Anthias",
       description: "Monitor risk on DeFi borrowing and lending markets.",
-      thumbnail: anthiasimg, // Replace with URL of thumbnail
-      link: "https://anthias.xyz" // Replace with URL of the project
+      thumbnail: anthiasimg,
+      link: "https://anthias.xyz" 
     },
 
     {
+      name: "UMass Course Reviews",
+      description: "A course review website for UMass Amherst students.",
+      thumbnail: courseReviews,
+      link: "https://github.com/cnobleshriver/hack-umass-xi"
+    },
+    
+    {
       name: "Sorting Visualizer",
       description: "A React project that implements sorting algorithms.",
-      thumbnail: sortingvisualizer, // Replace with URL of thumbnail
-      link: "https://github.com/cnobleshriver/sorting-visualizer" // Replace with URL of the project
-    }
-    // Add more projects as needed
+      thumbnail: sortingvisualizer,
+      link: "https://github.com/cnobleshriver/sorting-visualizer" 
+    },
+
+  
   ];
 
   return (

@@ -28,6 +28,7 @@ import resumeicon from "./resumeicon.svg"
 import resume from "./resume.pdf"
 import anthiaslogo from "./anthias.svg"
 import anthiasimg from "./anthias.png"
+import courseReviews from "./courseReviews.png"
 
 export {
   airbnb,
@@ -59,5 +60,6 @@ export {
   resumeicon,
   resume,
   anthiaslogo,
-  anthiasimg
+  anthiasimg,
+  courseReviews
 };
