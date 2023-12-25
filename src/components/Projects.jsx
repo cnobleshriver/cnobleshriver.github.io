@@ -1,9 +1,8 @@
 import React from 'react'
 import styles from "../style";
-import { sortingvisualizer, anthiasimg, courseReviews, cglogo} from '../assets';
+import { anthiasimg, courseReviews, cglogo} from '../assets';
 
 const Projects = () => {
-  // Placeholder projects
   const projects = [
     {
       name: "Anthias",
@@ -24,9 +23,7 @@ const Projects = () => {
       description: "Built a website for the UMass Club Golf team using Next.js",
       thumbnail: cglogo,
       link: "https://umass-club-golf.vercel.app/" 
-    },
-
-  
+    }
   ];
 
   return (
