@@ -1,8 +1,6 @@
 import { useState } from "react";
-
 import { close, menu, resume } from "../assets";
 import { navLinks } from "../constants";
-import TypewriterComponent from "typewriter-effect";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -10,21 +8,8 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h1 className="font-poppins text-white w-[200px] h-[32px]">
-        Christian's Portfolio
-        {/* <TypewriterComponent
-        options={{
-          loop: true,
-          deleteSpeed: 100,
-        }}
-        onInit={(typewriter) =>
-          typewriter.typeString('cnobleshriver.com').start()
-            .pauseFor(10000).deleteAll()
-            .typeString('Chris Noble Shriver')
-            .pauseFor(10000).deleteAll()
-        }
-      /> */}
-
+      <h1 className="font-poppins text-white w-[275px] h-[32px]">
+        Christian Noble Shriver's Portfolio
       </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
