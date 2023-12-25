@@ -13,14 +13,14 @@ const Projects = () => {
 
     {
       name: "UMass Course Reviews",
-      description: "A course review website for UMass Amherst students.",
+      description: "Built using Next.js and Mantine UI as a part of Hack UMass XI.",
       thumbnail: courseReviews,
-      link: "https://github.com/cnobleshriver/hack-umass-xi"
+      link: "https://umass-course-reviews.vercel.app/"
     },
 
     {
       name: "UMass Club Golf Website",
-      description: "Built a website for the UMass Club Golf team using Next.js",
+      description: "Built a website for the UMass Club Golf team using Next.js. (In Progress)",
       thumbnail: cglogo,
       link: "https://umass-club-golf.vercel.app/" 
     }
@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <section id="projects" className={`flex flex-wrap justify-center ${styles.paddingY}`}>
       <h2 className="font-poppins font-semibold ss:text-[52px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] text-center w-full">
-        Projects
+        Projects and Collaborations
       </h2>
       {projects.map((project, index) => (
         <a href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
