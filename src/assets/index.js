@@ -30,6 +30,7 @@ import anthiaslogo from "./anthias.svg"
 import anthiasimg from "./anthias.png"
 import courseReviews from "./courseReviews.png"
 import cglogo from "./cg-logo.png"
+import thejetbusiness from "./thejetbusiness.jpg"
 
 export {
   airbnb,
@@ -63,5 +64,6 @@ export {
   anthiaslogo,
   anthiasimg,
   courseReviews,
-  cglogo
+  cglogo,
+  thejetbusiness
 };

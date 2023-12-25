@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../style";
-import { anthiasimg, courseReviews, cglogo} from '../assets';
+import { anthiasimg, courseReviews, cglogo, thejetbusiness} from '../assets';
 
 const Projects = () => {
   const projects = [
@@ -20,10 +20,18 @@ const Projects = () => {
 
     {
       name: "UMass Club Golf Website",
-      description: "Built a website for the UMass Club Golf team using Next.js. (In Progress)",
+      description: "Built a website for the UMass Club Golf team, which I am a member of. (In Progress)",
       thumbnail: cglogo,
       link: "https://umass-club-golf.vercel.app/" 
+    },
+
+    {
+      name: "The Jet Business",
+      description: "Redesigned the website for The Jet Business, a private jet broker based in London. (In Progress)",
+      thumbnail: thejetbusiness,
+      link: "https://the-jet-business-paemr09y5-cnobleshriver.vercel.app/" 
     }
+
   ];
 
   return (
