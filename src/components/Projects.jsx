@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../style";
-import { sortingvisualizer, anthiaslogo, anthiasimg, courseReviews } from '../assets';
+import { sortingvisualizer, anthiasimg, courseReviews } from '../assets';
 
 const Projects = () => {
   // Placeholder projects
@@ -24,6 +24,13 @@ const Projects = () => {
       description: "A React project that implements sorting algorithms.",
       thumbnail: sortingvisualizer,
       link: "https://github.com/cnobleshriver/sorting-visualizer" 
+    },
+
+    {
+      name: "UMass Club Golf Website",
+      description: "Built a website for the UMass Club Golf team using Next.js",
+      thumbnail: sortingvisualizer,
+      link: "https://umass-club-golf.vercel.app/" 
     },
 
   
