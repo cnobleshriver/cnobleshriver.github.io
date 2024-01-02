@@ -5,33 +5,29 @@ import { anthiasimg, courseReviews, cglogo, thejetbusiness} from '../assets';
 const Projects = () => {
   const projects = [
     {
+      name: "UMass Club Golf Website",
+      description: "Built a website for the UMass Club Golf team, which I am a member of. (In Progress)",
+      thumbnail: cglogo,
+      link: "https://umass-club-golf.vercel.app/" 
+    },
+    {
+      name: "The Jet Business",
+      description: "Redesigned the website for The Jet Business, a private jet broker based in London. (In Progress)",
+      thumbnail: thejetbusiness,
+      link: "https://the-jet-business-paemr09y5-cnobleshriver.vercel.app/" 
+    },
+    {
       name: "Anthias",
       description: "Monitor risk on DeFi borrowing and lending markets.",
       thumbnail: anthiasimg,
       link: "https://anthias.xyz" 
     },
-
     {
       name: "UMass Course Reviews",
       description: "Built using Next.js and Mantine UI as a part of Hack UMass XI.",
       thumbnail: courseReviews,
       link: "https://umass-course-reviews.vercel.app/"
     },
-
-    {
-      name: "UMass Club Golf Website",
-      description: "Built a website for the UMass Club Golf team, which I am a member of. (In Progress)",
-      thumbnail: cglogo,
-      link: "https://umass-club-golf.vercel.app/" 
-    },
-
-    {
-      name: "The Jet Business",
-      description: "Redesigned the website for The Jet Business, a private jet broker based in London. (In Progress)",
-      thumbnail: thejetbusiness,
-      link: "https://the-jet-business-paemr09y5-cnobleshriver.vercel.app/" 
-    }
-
   ];
 
   return (
