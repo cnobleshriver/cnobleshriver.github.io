@@ -14,7 +14,7 @@ const Projects = () => {
       name: "The Jet Business",
       description: "Redesigned the website for The Jet Business, a private jet broker based in London. (In Progress)",
       thumbnail: thejetbusiness,
-      link: "https://the-jet-business-paemr09y5-cnobleshriver.vercel.app/" 
+      link: "https://the-jet-business-d87ldcxdl-cnobleshriver.vercel.app/" 
     },
     {
       name: "Anthias",
