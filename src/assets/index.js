@@ -31,6 +31,7 @@ import anthiasimg from "./anthias.png"
 import courseReviews from "./courseReviews.png"
 import cglogo from "./cg-logo.png"
 import thejetbusiness from "./thejetbusiness.jpg"
+import turret from "./turret.jpg"
 
 export {
   airbnb,
@@ -65,5 +66,6 @@ export {
   anthiasimg,
   courseReviews,
   cglogo,
-  thejetbusiness
+  thejetbusiness,
+  turret
 };

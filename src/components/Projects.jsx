@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../style";
-import { anthiasimg, courseReviews, cglogo, thejetbusiness} from '../assets';
+import { anthiasimg, courseReviews, cglogo, thejetbusiness, turret} from '../assets';
 
 const Projects = () => {
   const projects = [
@@ -28,6 +28,12 @@ const Projects = () => {
       thumbnail: courseReviews,
       link: "https://umass-course-reviews.vercel.app/"
     },
+    {
+      name: "Face-Tracking Nerf Turret",
+      description: "Final Project for CICS 256 at UMass",
+      thumbnail: turret,
+      link: "https://sites.google.com/umass.edu/cics256-final-project/home?authuser=4"
+    }
   ];
 
   return (
