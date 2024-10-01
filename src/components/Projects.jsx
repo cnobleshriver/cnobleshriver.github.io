@@ -6,16 +6,16 @@ const Projects = () => {
   const projects = [
     {
       name: "UMass Club Golf Website",
-      description: "Built a website for the UMass Club Golf team, which I am a member of. (In Progress)",
+      description: "Built a website for the UMass Club Golf team, which I am a member of.",
       thumbnail: cglogo,
       link: "https://umass-club-golf.vercel.app/" 
     },
-    {
-      name: "The Jet Business",
-      description: "Redesigned the website for The Jet Business, a private jet broker based in London. (In Progress)",
-      thumbnail: thejetbusiness,
-      link: "https://the-jet-business-d87ldcxdl-cnobleshriver.vercel.app/" 
-    },
+    // {
+    //   name: "The Jet Business",
+    //   description: "Redesigned the website for The Jet Business, a private jet broker based in London. (In Progress)",
+    //   thumbnail: thejetbusiness,
+    //   link: "https://the-jet-business-d87ldcxdl-cnobleshriver.vercel.app/" 
+    // },
     {
       name: "Anthias",
       description: "Monitor risk on DeFi borrowing and lending markets.",
