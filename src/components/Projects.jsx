@@ -16,12 +16,12 @@ const Projects = () => {
     //   thumbnail: thejetbusiness,
     //   link: "https://the-jet-business-d87ldcxdl-cnobleshriver.vercel.app/" 
     // },
-    {
-      name: "Anthias",
-      description: "Monitor risk on DeFi borrowing and lending markets.",
-      thumbnail: anthiasimg,
-      link: "https://anthias.xyz" 
-    },
+    // {
+    //   name: "Anthias",
+    //   description: "Monitor risk on DeFi borrowing and lending markets.",
+    //   thumbnail: anthiasimg,
+    //   link: "https://anthias.xyz" 
+    // },
     {
       name: "UMass Course Reviews",
       description: "Built using Next.js and Mantine UI as a part of Hack UMass XI.",
